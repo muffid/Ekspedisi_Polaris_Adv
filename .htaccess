@@ -1,0 +1,5 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^ekspedisi\.jualdecal\.com$
+RewriteRule ^/?$ "https\:\/\/ekspedisi\.jualdecal\.com\/" [R=301,L]
+
